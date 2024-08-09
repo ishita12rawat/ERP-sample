@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div  class="main w-full min-h-screen bg-pink-400">
+      
+      
+        <div class=" mx-4 p-9 text-blue-700">
+          <h1 class="text-4xl text-white "> Welcome ..</h1>
+          <h3 class="text-4xl  text-red-600 px-5 mt-8"><a  href="/front">Go back </a></h3>
+      <form action="/create" method="post">
+
+        <label class="block px-5 mx-8 mt-5  rounded-lg py-2 bg-pink-600 w-1/4 " for="namee">Enter your name</label>
+       
+        <input class="block px-5 mx-8 mt-5  rounded-lg py-2 bg-pink-600 w-1/4 " type="text" placeholder="write here.." name="name">
+        <label class="block px-5 mx-8 mt-5  rounded-lg py-2 bg-pink-600 w-1/4 " for="email"> enter your email</label>
+        <input class="block px-5 mx-8 mt-5  rounded-lg py-2 bg-pink-600 w-1/4 " type="email" name="email" placeholder="www.@gmail.com">
+        <label class="block px-5 mx-8 mt-5  rounded-lg py-2 bg-pink-600 w-1/4 " for="number">password</label>
+        <input class="block px-5 mx-8 mt-5  rounded-lg py-2 bg-pink-600 w-1/4 " type="text" name="password" placeholder="enter here....">
+        <input type="submit"class="block px-5 mx-8 mt-5  text-black rounded-lg py-2 bg-blue-900 w-20 " value="create">
+        <button class="block px-5 mx-8 mt-5  rounded-lg py-2 text-black bg-red-600 w-20 "><a href="/logout"> logout</a></button>
+      </form>
+      
+      </div>
+    </div>
+</body>
+</html>
